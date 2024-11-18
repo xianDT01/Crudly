@@ -1,13 +1,13 @@
-package com.DuranRecMovies.DuranRecMovies;
+package com.Crudly.Crudly;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class DuranRecMoviesApplication {
+public class CrudlyApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(DuranRecMoviesApplication.class, args);
+		SpringApplication.run(CrudlyApplication.class, args);
 	}
 
 }

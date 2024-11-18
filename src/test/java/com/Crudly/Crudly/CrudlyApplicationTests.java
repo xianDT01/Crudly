@@ -1,10 +1,10 @@
-package com.DuranRecMovies.DuranRecMovies;
+package com.Crudly.Crudly;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class DuranRecMoviesApplicationTests {
+class CrudlyApplicationTests {
 
 	@Test
 	void contextLoads() {
