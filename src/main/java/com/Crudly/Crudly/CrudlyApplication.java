@@ -20,7 +20,7 @@ public class CrudlyApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-		// Crear algunas tareas de ejemplo
+		// Se crean algunas tareas de ejemplo para comprobar el correcto funcionamiento
 		Task task1 = new Task("Aprender Spring Boot", "Completar el tutorial de Spring Boot", false);
 		Task task2 = new Task("Crear proyecto CRUD", "Desarrollar Crudly desde cero", true);
 
