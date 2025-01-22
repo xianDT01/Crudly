@@ -3,10 +3,11 @@ package com.Crudly.Crudly.service;
 import com.Crudly.Crudly.Repository.TaskRepository;
 import com.Crudly.Crudly.model.Task;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
-
+@Service
 public class TaskServiceImpl implements TaskService{
     @Autowired
     private TaskRepository taskRepository;
