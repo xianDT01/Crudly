@@ -1,5 +1,5 @@
 package com.Crudly.Crudly.model;
-
+import jakarta.validation.constraints.NotEmpty;
 import jakarta.persistence.*;
 
 @Entity
@@ -10,6 +10,7 @@ public class Task {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
+    @NotEmpty(message = "El título no puede estar vacío")
     @Column(nullable = false)
     private String title;
 
@@ -18,6 +19,7 @@ public class Task {
 
     @Column(nullable = false)
     private Boolean completed;
+
 
 
     public Task() {}
